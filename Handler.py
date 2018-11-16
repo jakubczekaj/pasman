@@ -1,0 +1,1 @@
+# class for handling main functionalities (hierarchization, reading (listing), deleting, adding, editing, etc
