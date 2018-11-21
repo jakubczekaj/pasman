@@ -9,8 +9,8 @@ class Keyfile():
     def __init__(self, path):
         self.path = path
 
-    def write_line(self, path, line):
-        with open(path, 'a') as f:
+    def write_line(self, line):
+        with open(self.path, 'a') as f:
             f.write(line)
 
     def read_line(self, path, num):
