@@ -13,8 +13,8 @@ class Keyfile():
         with open(self.path, 'a') as f:
             f.write(line)
 
-    def read_line(self, path, num):
-        with open(path, 'r') as f:
+    def read_line(self, num):
+        with open(self.path, 'r') as f:
             for i, line in enumerate(f):
                 if i == num:
                     return line
