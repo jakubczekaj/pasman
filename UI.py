@@ -17,3 +17,18 @@
 #
 
 # TODO: how to manage access hierarchy (e.g. different passwords for work, different personal passwords, etc...)?
+
+import Keyfile
+
+def main():
+    k=Keyfile.Keyfile('xyz.txt')
+    encrypted = k.encrypt_line('abcdef')
+    print('encrypted: {}'.format(encrypted))
+    decrypted = k.decrypt_line(encrypted)
+    print('decrypted: {}'.format(decrypted))
+
+#class UI():
+#    def __init__(self):
+
+if __name__ == '__main__':
+    main()
