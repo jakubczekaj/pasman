@@ -19,3 +19,8 @@ class Keyfile():
                 if i == num:
                     return line
 
+    def encrypt_line(self, line):
+        pass
+
+    def decrypt_line(self, line):
+        pass
